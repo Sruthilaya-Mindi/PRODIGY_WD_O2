@@ -69,8 +69,11 @@ body {
     cursor: pointer;
     outline: none;
     box-shadow: 0 0 30px rgb(50, 50, 161);
+    transition: 0.2s all;
 }
-
+.buttons button:active{ 
+        transform: scale(0.92); 
+}
 .lapse {
     padding: 0;
     display: flex;
